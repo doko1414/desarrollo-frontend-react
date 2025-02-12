@@ -1,7 +1,8 @@
-import Logo from '../components/Logo';
-import Description from '../components/Description';
-import Content from '../components/Content';
-import Github from '../components/Github';
+import Logo from './_components/Logo';
+import Description from './_components/Description';
+//import Content from './_components/Content';
+// import Github from './_components/Github';
+import OpenLink from '../components/OpenLink';
 
 const Default =()=>{
 return (
@@ -9,8 +10,12 @@ return (
     <header className="App-header">
         <Logo />
         <Description />
-        <Content />
-        <Github/>
+
+        <OpenLink Title='Learn React' url='https://reactjs.org'/>
+        <OpenLink Title='Mi Proyecto React(GitHub)' url='https://github.com/doko1414/desarrollo-frontend-react'/>
+    {/* <Content />
+        <Github/> */}
+        
     </header>
     </>
     
