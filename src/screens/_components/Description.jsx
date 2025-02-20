@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 
 const Description=()=>{
-    const defaultState=useSelector(state=>state.default);
+    const defaultState=useSelector(state=>state.default);//con esto recuperaros tadas las variables globales de
 
     return(
         <>
